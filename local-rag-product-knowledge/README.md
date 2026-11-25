@@ -20,6 +20,10 @@ Retrieved: 2021-Manual-04072011.pdf p. 9, p. 8, p. 9, p. 10, p. 9   (14.2 s on a
 
 The same question **without** retrieval (the model answering from its own training) produced *"four Alarm Relay Cards ... installed in slots 1, 2, 3, and 4"*, which is wrong. This is the core point of RAG in a sales setting: the answer has to come from the documentation, with a source the salesperson can check.
 
+## Current demo
+
+<img width="1333" height="104" alt="Screenshot 2026-11-25 at 23 16 19" src="https://github.com/user-attachments/assets/d5a1345b-755a-4dc3-96eb-c7834e9b87ac" />
+
 ## How it works
 
 ```mermaid
@@ -106,6 +110,7 @@ python rag.py test --no-rag --questions evaluation/questions/nokeval_2021.csv --
 ```
 
 New runs are written to `results/`. Turning Wi-Fi off before running `ingest` and `test` shows that everything works locally.
+
 
 ## Repository structure
 
