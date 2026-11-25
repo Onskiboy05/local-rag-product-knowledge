@@ -1,0 +1,16 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local data: vector store, PDFs and new test runs
+/chroma_db/
+docs/**/*.pdf
+/results/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+.env
