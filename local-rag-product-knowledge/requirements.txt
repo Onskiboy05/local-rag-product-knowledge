@@ -1,0 +1,4 @@
+# Tested versions (Python 3.14, macOS, Apple M2)
+chromadb==1.5.9
+ollama==0.6.3
+pymupdf==2.0

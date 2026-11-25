@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-11-25T17:55:18",
+  "collection": "product_docs",
+  "docs_dir": "docs",
+  "embed_model": "nomic-embed-text",
+  "embed_model_details": {
+    "family": "nomic-bert",
+    "parameter_size": "137M",
+    "quantization_level": "F16"
+  },
+  "chunk_size": 1000,
+  "chunk_overlap": 150,
+  "documents": [
+    {
+      "file": "DOC1599_idOil-Solar-User-Manual-EN.pdf",
+      "pages": 62,
+      "characters": 75392,
+      "chunks": 117,
+      "pages_without_text": []
+    }
+  ],
+  "total_chunks": 117,
+  "parse_seconds": 0.1,
+  "embed_seconds": 3.7,
+  "ollama_version": "0.40.3",
+  "machine": {
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python": "3.14.3",
+    "chromadb": "1.5.9",
+    "pymupdf": "2.0",
+    "cpu": "Apple M2",
+    "ram_bytes": "17179869184",
+    "model": "Mac14,2",
+    "ram_GB": 16
+  }
+}

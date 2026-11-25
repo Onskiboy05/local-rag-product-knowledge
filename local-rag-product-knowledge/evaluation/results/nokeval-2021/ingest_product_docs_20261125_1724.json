@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-11-25T17:24:59",
+  "collection": "product_docs",
+  "docs_dir": "docs",
+  "embed_model": "nomic-embed-text",
+  "embed_model_details": {
+    "family": "nomic-bert",
+    "parameter_size": "137M",
+    "quantization_level": "F16"
+  },
+  "chunk_size": 1000,
+  "chunk_overlap": 150,
+  "documents": [
+    {
+      "file": "2021-Manual-04072011.pdf",
+      "pages": 20,
+      "characters": 37041,
+      "chunks": 51,
+      "pages_without_text": [
+        19
+      ]
+    }
+  ],
+  "total_chunks": 51,
+  "parse_seconds": 0.0,
+  "embed_seconds": 9.2,
+  "ollama_version": "0.40.3",
+  "machine": {
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python": "3.14.3",
+    "chromadb": "1.5.9",
+    "pymupdf": "2.0",
+    "cpu": "Apple M2",
+    "ram_bytes": "17179869184",
+    "model": "Mac14,2",
+    "ram_GB": 16
+  }
+}

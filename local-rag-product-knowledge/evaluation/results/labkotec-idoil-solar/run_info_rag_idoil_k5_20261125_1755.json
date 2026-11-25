@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-11-25T17:56:54",
+  "mode": "rag",
+  "tag": "idoil_k5",
+  "questions_file": "questions.csv",
+  "llm_model": "gemma4:e4b",
+  "llm_details": {
+    "family": "gemma4",
+    "parameter_size": "8.0B",
+    "quantization_level": "Q4_K_M"
+  },
+  "thinking": "off",
+  "embed_model": "nomic-embed-text",
+  "embed_details": {
+    "family": "nomic-bert",
+    "parameter_size": "137M",
+    "quantization_level": "F16"
+  },
+  "collection": "product_docs",
+  "settings": {
+    "top_k": 5,
+    "chunk_size": 1000,
+    "chunk_overlap": 150,
+    "num_ctx": 8192,
+    "temperature": 0.0,
+    "seed": 42
+  },
+  "system_prompt": "You are a product-knowledge assistant for a salesperson at an industrial manufacturer. Answer the question using ONLY the documentation excerpts given. If the excerpts do not contain the answer, reply exactly: \"The documentation provided does not answer this.\" Do not guess and do not use outside knowledge. Keep the answer short and factual. After each fact, cite its source in the form [file, p. N].",
+  "model_load_seconds": 0.2,
+  "n_questions": 9,
+  "mean_total_s": 10.5,
+  "max_total_s": 15.6,
+  "expected_page_retrieved": "6/8",
+  "models_in_memory": [
+    {
+      "model": "gemma4:e4b",
+      "size_GB": 3.24,
+      "size_on_gpu_GB": 3.24
+    },
+    {
+      "model": "nomic-embed-text:latest",
+      "size_GB": 0.37,
+      "size_on_gpu_GB": 0.37
+    }
+  ],
+  "ollama_version": "0.40.3",
+  "machine": {
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python": "3.14.3",
+    "chromadb": "1.5.9",
+    "pymupdf": "2.0",
+    "cpu": "Apple M2",
+    "ram_bytes": "17179869184",
+    "model": "Mac14,2",
+    "ram_GB": 16
+  },
+  "results_file": "results_rag_idoil_k5_20261125_1755.csv"
+}
